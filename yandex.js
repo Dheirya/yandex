@@ -1,3 +1,4 @@
+
 (function (win, doc, nav, params, namespace, undefined) {
     'use strict';
 
@@ -367,7 +368,7 @@
                         userLang: (nav.language || nav.userLanguage || '').split('-')[0],
                         translator: new namespace.PageTranslator({
                             srv: 'tr-url-widget',
-                            sid: '0f943468.60fb2ef1.07e43e45.74722d75726c2d776964676574',
+                            sid: 'f0c3bc1a.6104751d.15e5ba4f.74722d75726c2d776964676574',
                             url: 'https://translate.yandex.net/api/v1/tr.json/translate',
                             autoSync: true,
                             maxPortionLength: 600
